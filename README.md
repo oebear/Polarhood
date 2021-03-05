@@ -8,5 +8,7 @@ V1.0
 Requires:
 
 twelvedata api key
+
 alpha ventage api key
+
 discord webhook
