@@ -209,7 +209,7 @@ namespace polarhood1
 
 
             string remoteUri = "https://" + $"api.twelvedata.com/time_series?symbol={stock}&interval=1min&apikey={api1}&format=CSV";
-            string fileName = "C:\\Users\\Omistaja\\source\\repos\\polarhood1\\polarhood1\\bin\\Debug\\stockdata.csv";
+            string fileName = "stockdata.csv";
 
             WebClient myWebClient = new WebClient();
             myWebClient.DownloadFile(remoteUri, fileName);
