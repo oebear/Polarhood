@@ -95,7 +95,7 @@ namespace polarhood1
             chart1.Series[stock].ChartType = Graph.SeriesChartType.Candlestick;
 
             // downloads csv and pastes it to textbox2
-            string api2 = textBox5.Text;
+            string api2 = textBox4.Text;
             string symbol = textBox1.Text;
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create("https://" + $@"www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol={symbol}&apikey={api2}&datatype=csv");
             HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
